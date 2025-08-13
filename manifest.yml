@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx
+  name: argocd-practice
 spec:
   containers:
-  - name: argocd-practive
+  - name: argocd-practice
     image: ak2733/argocd_week37.2:1
     ports:
     - containerPort: 80
