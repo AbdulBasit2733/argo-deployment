@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: argocd-practice
-    image: ak2733/argocd_week37.2:1
+    image: ak2733/argocd_week37.2:8308df3d13cc1dba263ad996c2a9a304fd46cda4
     ports:
     - containerPort: 80
